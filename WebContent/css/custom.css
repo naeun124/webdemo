@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.navbar-brand, h1, h2, h3, h4 {
+
+  font-family: 'Jeju Gothic';
+
+}
+
+h5 {
+
+  font-family: 'Jeju Gothic';
+
+  font-size: 18px;
+
+}
+
+body {
+
+  font-family: 'Nanum Gothic';
+
+}
+
+#wrap{width:100%; height:100%;}
+#wrap > h1{font-size:0;}
+
+header #nav {
+	border:4px solid #cccccc;
+	border-width:2px 0;
+	list-style:none;
+	padding:0;
+	margin:0;
+	background:#ffffff;
+	text-align:center;
+	z-index:12;
+}
+
+header #nav li{
+	display:inline;
+	position:relative;
+}
+
+header #nav a{
+	display:inline-block;
+	padding:10px;
+}
+
+header #nav li a{
+	color:#000000;
+	font-size:18px;
+}
+
+header #nav li:hover > a{
+	font-weight:bold;
+	text-decoration:none;
+	margin:0;
+	padding:10px;
+}
+
+header #nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	top:30px;
+	width:105px;
+	text-align:center;
+	opacity:0;
+	z-index:12;
+}
+
+header #nav ul li{
+	margin:0;
+	padding:0;
+	font-size:15px;
+}
+
+header #nav ul a{
+	font-weight:normal;
+	color:#000000;
+}
+
+header #nav ul li:hover a{
+	font-weight:bold;
+}
+
+header #nav li:hover ul{
+	opacity:1;
+}
+
+header #nav li:hover ul li{
+	height:35px;
+	padding:0;
+}
+
+#container div img{
+	z-index:11;
+	min-width:100%;
+	height:650px;
+}
