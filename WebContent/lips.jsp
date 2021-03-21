@@ -12,7 +12,7 @@
     	<!-- 부트스트랩 CSS 추가하기 -->
     	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<!-- 커스텀 CSS 추가하기 -->
-		<link rel="stylesheet" href="./css/custom.css">
+		<link rel="stylesheet" href="./css/custom_lips.css">
 	
   	</head>
   <body>
@@ -21,7 +21,7 @@
 		<h1>View Of Beauty</h1>
 			<header>
 				<ul id="nav">
-					<li><a href="/">HOME</a></li>
+					<li><a href="index.jsp">HOME</a></li>
 					<li><a href="cosmetic.jsp">COSMETIC</a>
 						<ul>
 							<li><a href="lips.jsp">LIPS</a></li>
@@ -31,10 +31,6 @@
 					<li><a href="/contact/">CONTACT</a></li>
 				</ul>
 			</header>
-	</section>
-	
-	<section id="container">
-		<strong class="logo_box"><img src="VOB.png" style="display:block; margin:100px auto; width:600px; height:400px;"></strong>
 	</section>
 
     <!-- 제이쿼리 자바스크립트 추가하기 -->
