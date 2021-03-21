@@ -37,6 +37,22 @@
 		<strong class="logo_box"><img src="VOB.png" style="display:block; margin:100px auto; width:600px; height:400px;"></strong>
 	</section>
 
+	<footer id ="footer">
+		<div class="auto">
+			<span class ="footer_logo">
+        		<img src="VOB_white.png">
+    		</span>
+			<div class = "addrwrap">
+				<a href="">개인정보처리방침</a>
+				<address>
+				서울특별시 마포구 와우산로 94, Email : ou0911@naver.com
+					<p class="copyright">Copyright(C) 2021 All Right Reserved.</p>
+				</address>
+			</div>
+		</div>
+	</footer>
+	
+	
     <!-- 제이쿼리 자바스크립트 추가하기 -->
 
     <script src="./js/jquery.min.js"></script>
