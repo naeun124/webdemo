@@ -12,9 +12,10 @@
     	<!-- 부트스트랩 CSS 추가하기 -->
     	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<!-- 커스텀 CSS 추가하기 -->
-		<link rel="stylesheet" href="./css/lips.css">
+		<link rel="stylesheet" href="./css/contact.css">
 	
   	</head>
+  	
   <body>
 	<section id="wrap">
 		
@@ -28,9 +29,30 @@
 						</ul>
 					</li>
 					<li><a href="/faq/">FAQ</a></li>
-					<li><a href="/contact/">CONTACT</a></li>
+					<li><a href="contact.jsp">CONTACT</a></li>
 				</ul>
 			</header>
+	</section>
+	
+	<section class="content_wrap">
+		
+		<h2 class="form_tit">VOB에게 물어보세요!!</h2>
+		
+		<form class="gform" method="post" action="" name="contact">
+			<fieldset>
+				<legend>CONTACT</legend>
+				
+				<div class="formlist">
+					<ul>
+						<li>
+							<label for="name">이름<sup>*</sup></label>
+							<span class="inputbox"><input type="text" id="name" name="name" /></span>
+						</li>
+					</ul>
+				</div>
+			</fieldset>
+		</form>
+		
 	</section>
 	
 	<footer id ="footer">
@@ -42,7 +64,8 @@
 			</address>
 		</div>
 	</footer>
-
+	
+	
     <!-- 제이쿼리 자바스크립트 추가하기 -->
 
     <script src="./js/jquery.min.js"></script>
