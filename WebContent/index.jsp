@@ -36,6 +36,16 @@
 	<section id="container">
 		<strong class="logo_box"><img src="VOB.png" style="display:block; margin:100px auto; width:600px; height:400px;"></strong>
 	</section>
+	
+	<footer id ="footer">
+		<div class = "addrwrap">
+			<a href="">개인정보처리방침</a>
+			<address>
+				서울특별시 마포구 와우산로 94, Email : ou0911@naver.com, kns_hello12@naver.com
+				<p class="copyright">Copyright(C) 2021 All Right Reserved.</p>
+			</address>
+		</div>
+	</footer>
 
     <!-- 제이쿼리 자바스크립트 추가하기 -->
 

@@ -13,8 +13,6 @@ h5 {
 
   font-family: 'Jeju Gothic';
 
-  font-size: 18px;
-
 }
 
 body {
@@ -89,4 +87,20 @@ body {
 #wrap header #nav li:hover ul li{
 	height:35px;
 	padding:0;
+}
+
+footer
+{
+	width:100%;
+	height:80px;
+	background-color:#808080;
+	position:fixed;
+	bottom:0px;
+}
+ 
+footer .addrwrap { 
+            float:left;
+            padding:12px 0;
+            font-size:13px;
+            margin-left:15px;
 }
